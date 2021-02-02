@@ -10,7 +10,7 @@ class Header extends React.Component {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
             <Link to="/home" className="navbar-brand">
-              logo Origin2
+              logo Origin23 wdwfwffwfw
             </Link>
             <button
               className="navbar-toggler"
