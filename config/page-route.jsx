@@ -4,6 +4,7 @@ import { Redirect } from "react-router";
 import Home from "./../pages/home.jsx";
 import About from "./../pages/about.jsx";
 import Contact from "./../pages/contact.jsx";
+import Props from "./../pages/props.jsx";
 
 const routes = [
   //리다이렉트
@@ -23,6 +24,10 @@ const routes = [
   {
     path: "/contact",
     component: () => <Contact />,
+  },
+  {
+    path: "/props",
+    component: () => <Props />,
   },
 ];
 

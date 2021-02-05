@@ -28,7 +28,7 @@ class Header extends React.Component {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <Link to="/home" className="nav-link">
-                    Home
+                    Home2
                   </Link>
                 </li>
                 <li className="nav-item">
@@ -39,6 +39,11 @@ class Header extends React.Component {
                 <li className="nav-item dropdown">
                   <Link to="/contact" className="nav-link">
                     contact
+                  </Link>
+                </li>
+                <li className="nav-item dropdown">
+                  <Link to="/props" className="nav-link">
+                    props
                   </Link>
                 </li>
               </ul>
