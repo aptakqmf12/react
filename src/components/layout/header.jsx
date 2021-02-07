@@ -6,7 +6,6 @@ class Header extends React.Component {
   render() {
     return (
       <>
-
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
             <Link to="/home" className="navbar-brand">
@@ -41,6 +40,16 @@ class Header extends React.Component {
                 <li className="nav-item dropdown">
                   <Link to="/contact" className="nav-link">
                     contact
+                  </Link>
+                </li>
+                <li className="nav-item dropdown">
+                  <Link to="/props" className="nav-link">
+                    props
+                  </Link>
+                </li>
+                <li className="nav-item dropdown">
+                  <Link to="/state" className="nav-link">
+                    state
                   </Link>
                 </li>
               </ul>
